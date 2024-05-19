@@ -1,3 +1,6 @@
+//esta opcion la paso un compañero como alternativa, pero no llegue a tomar nota de todo
+
+
 class Rodados {
 	var property capacidad = 0
 	var property velMax = 0
@@ -43,25 +46,35 @@ class Corsa {
 }
 
 class Kwid {
-	const peso = if(tieneTanqueAdicional)1200 + 150 else 1200
+	var tanqueAdicional = true
 	
+	
+	method 
 	method capacidad() = capacidad
 	method velMax() = velMax
 	method peso() = peso
+
 }
 
-class Traffic {
-	var property
-	var property
+object traffic {
+	var interiorComodo = true
+	var motorpuenta = false
 	
-	var capacidad = interior.capacidad()
-	var velMax = motor.velMax()
-	var color = blanco
-	var peso = motor.peso() + interior.peso() + 4000
+	method colocarInteriorComodo() = {interiorComodo = true}
+	method colocarInteriorPopular() = { = false}
+	method colocarMotorPulenta() = {= true}
+	method colocarMotorBataton() = {= false}
+	
+	method pesoMotor() = if ()
+	method PesoInterior() = if ()
 	
 	method capacidad() = capacidad
 	method velMax() = velMax
 	method peso() = peso
 	method color() = color
-		
+}
+
+class AutoEspecial{
+	
+	}
 }
